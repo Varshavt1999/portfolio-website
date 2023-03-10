@@ -108,7 +108,7 @@ function Projects() {
                                     href={project.siteLink}
                                     target="_blank"
                                 >
-                                    <img src={project.img} alt="work-image" />
+                                    <img src={project.img} alt="work" />
                                 </WorkImageBox>
                             </LeftContainer>
                             <RightContainer>
