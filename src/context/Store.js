@@ -27,7 +27,7 @@ function CursorProvider({ children }) {
         } else {
             setCursorBg("none");
         }
-    });
+    }, []);
 
     // mouse enter handler
     const mouseEnterHandler = () => {
