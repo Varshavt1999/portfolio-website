@@ -27,7 +27,7 @@ function CursorProvider({ children }) {
         } else {
             setCursorBg("none");
         }
-    }, []);
+    }, [mobileViewPortIsActive]);
 
     // mouse enter handler
     const mouseEnterHandler = () => {
