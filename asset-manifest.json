@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.50b43b12.css",
+    "main.js": "/portfolio-website/static/js/main.57cf0f6a.js",
+    "static/media/varsha.png": "/portfolio-website/static/media/varsha.46ae35f1f7c321e28f96.png",
+    "static/media/real-estate.png": "/portfolio-website/static/media/real-estate.6d10fb43c8b9a37d283a.png",
+    "static/media/guester.png": "/portfolio-website/static/media/guester.2bdc6bd7837f731be779.png",
+    "static/media/coffe-website.png": "/portfolio-website/static/media/coffe-website.7f7e45e8630f6e885c05.png",
+    "static/media/random-color-generator.png": "/portfolio-website/static/media/random-color-generator.8c1c922fa99cb170fdc9.png",
+    "static/media/profile-2.png": "/portfolio-website/static/media/profile-2.c99c0e2ee880464df244.png",
+    "static/media/budget-calculator.png": "/portfolio-website/static/media/budget-calculator.6ec5c22c7b9b4a22fc74.png",
+    "static/media/heart-trail-animation.png": "/portfolio-website/static/media/heart-trail-animation.dab43076bd90ed506e53.png",
+    "static/media/dmsans-medium-webfont.woff": "/portfolio-website/static/media/dmsans-medium-webfont.ecb067fc48cd385c7575.woff",
+    "static/media/dmsans-regular-webfont.woff": "/portfolio-website/static/media/dmsans-regular-webfont.661d6b6eeb921bde4f66.woff",
+    "static/media/dmsans-bold-webfont.woff": "/portfolio-website/static/media/dmsans-bold-webfont.93392c74a163b9d798df.woff",
+    "static/media/logo.png": "/portfolio-website/static/media/logo.a8a11ed52d3ac8560489.png",
+    "static/media/dmsans-medium-webfont.woff2": "/portfolio-website/static/media/dmsans-medium-webfont.56323eecaf21b7e2ecab.woff2",
+    "static/media/dmsans-bold-webfont.woff2": "/portfolio-website/static/media/dmsans-bold-webfont.ff25da0ce0f85a73b8db.woff2",
+    "static/media/dmsans-regular-webfont.woff2": "/portfolio-website/static/media/dmsans-regular-webfont.6951f52f2e5e0c170b9f.woff2",
+    "index.html": "/portfolio-website/index.html",
+    "main.50b43b12.css.map": "/portfolio-website/static/css/main.50b43b12.css.map",
+    "main.57cf0f6a.js.map": "/portfolio-website/static/js/main.57cf0f6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50b43b12.css",
+    "static/js/main.57cf0f6a.js"
+  ]
+}
