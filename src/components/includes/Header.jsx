@@ -33,7 +33,7 @@ function Header() {
                 <Right>
                     <NavBar>
                         <NavItem
-                            to="/"
+                            to="/portfolio-website"
                             onMouseEnter={mouseEnterHandler}
                             onMouseLeave={mouseLeaveHandler}
                         >
