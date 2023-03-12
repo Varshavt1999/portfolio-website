@@ -51,7 +51,14 @@ function Header() {
                             onMouseEnter={mouseEnterHandler}
                             onMouseLeave={mouseLeaveHandler}
                         >
-                            My Works
+                            Works
+                        </NavItem>
+                        <NavItem
+                            to="/skills"
+                            onMouseEnter={mouseEnterHandler}
+                            onMouseLeave={mouseLeaveHandler}
+                        >
+                            Skills
                         </NavItem>
                         <NavItem
                             to="/contact"
@@ -105,15 +112,15 @@ const LogoBox = styled.div`
 `;
 const LogoImg = styled.img``;
 const Right = styled.div`
-    width: 45%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @media all and (max-width: 1080px) {
-        width: 50%;
+    @media all and (max-width: 1280px) {
+        width: 60%;
     }
     @media all and (max-width: 980px) {
-        width: 60%;
+        width: 70%;
     }
     @media all and (max-width: 768px) {
         width: auto;

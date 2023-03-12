@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 //icons
 import { MdClose } from "react-icons/md";
@@ -44,7 +44,13 @@ function MobileNav({ isHamburgerModal, setHamburgerModal }) {
                     to="/works"
                     onClick={() => setHamburgerModal(!isHamburgerModal)}
                 >
-                    My Works
+                    Works
+                </NavItem>
+                <NavItem
+                    to="/skills"
+                    onClick={() => setHamburgerModal(!isHamburgerModal)}
+                >
+                    Skills
                 </NavItem>
                 <NavItem
                     to="/contact"

@@ -168,6 +168,7 @@ const MainContainer = styled(motion.div)`
 const Title = styled.h3`
     font-size: 34px;
     font-family: "dm_sansbold";
+    margin-bottom: 20px;
     @media all and (max-width: 1080px) {
         margin-bottom: 20px;
         font-size: 32px;

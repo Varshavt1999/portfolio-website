@@ -62,6 +62,10 @@ function About() {
                             <span>View My Works</span>
                             <MdArrowForward className="arrow" />
                         </SendBtn>
+                        {/* <SendBtn onClick={() => navigate("/qualifications")}>
+                            <span>Qualifications</span>
+                            <MdArrowForward className="arrow" />
+                        </SendBtn> */}
                     </Right>
                 </Content>
             </div>
