@@ -12,6 +12,7 @@ import BudgetCalc from "../../assets/images/budget-calculator.png";
 import Coffee from "../../assets/images/coffe-website.png";
 import HeartTrail from "../../assets/images/heart-trail-animation.png";
 import RandomColor from "../../assets/images/random-color-generator.png";
+import Youtube from "../../assets/images/youtube-clone.png";
 
 // icons
 import { VscGithubAlt } from "react-icons/vsc";
@@ -43,6 +44,23 @@ function Projects() {
         },
         {
             id: 2,
+            img: Youtube,
+            heading: "Youtube - Clone",
+            github: "https://github.com/Varshavt1999/youtube-clone",
+            siteLink: "https://Varshavt1999.github.io/youtube-clone",
+            technologies: [
+                "React",
+                "Material UI",
+                "Styled-components",
+                "Rapid API",
+                "Context API",
+                "React Hooks",
+                "Router",
+            ],
+            description: "Youtube Clone website using Rapid Api",
+        },
+        {
+            id: 3,
             img: RealEstate,
             heading: "Real Estate",
             github: "https://github.com/Varshavt1999/react-real-estate",
@@ -51,7 +69,7 @@ function Projects() {
             description: "Real Estate ui project",
         },
         {
-            id: 3,
+            id: 4,
             img: BudgetCalc,
             heading: "Budget Calculator",
             github: "https://github.com/Varshavt1999/budget-calculator",
@@ -60,23 +78,13 @@ function Projects() {
             description: "Budget Calculator using react",
         },
         {
-            id: 4,
+            id: 5,
             img: HeartTrail,
             heading: "Heart Trail Animation",
             github: "https://github.com/Varshavt1999/heart-trail-animation",
             siteLink: "https://heart-trailanimation.netlify.app",
             technologies: ["HTML", "CSS", "JavaScript"],
             description: "Heart Animation based on cursor movement using js",
-        },
-        {
-            id: 5,
-            img: RandomColor,
-            heading: "Random color generator",
-            github: "https://github.com/Varshavt1999/Random-color-generator",
-            siteLink: "https://varshavt-random-color-generator.netlify.app",
-            technologies: ["HTML", "CSS", "JavaScript"],
-            description:
-                "Random color generator on page load using html,css and js",
         },
         {
             id: 6,
@@ -86,6 +94,16 @@ function Projects() {
             siteLink: "https://varshavt-coffee-website.netlify.app",
             technologies: ["HTML", "CSS"],
             description: "Responsive Coffe website ui using html css",
+        },
+        {
+            id: 7,
+            img: RandomColor,
+            heading: "Random color generator",
+            github: "https://github.com/Varshavt1999/Random-color-generator",
+            siteLink: "https://varshavt-random-color-generator.netlify.app",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            description:
+                "Random color generator on page load using html,css and js",
         },
     ];
     return (
