@@ -13,6 +13,8 @@ import Coffee from "../../assets/images/coffe-website.png";
 import HeartTrail from "../../assets/images/heart-trail-animation.png";
 import RandomColor from "../../assets/images/random-color-generator.png";
 import Youtube from "../../assets/images/youtube-clone.png";
+import Netflix from "../../assets/images/netflix-clone.png";
+import weather from "../../assets/images/weather-app.png";
 
 // icons
 import { VscGithubAlt } from "react-icons/vsc";
@@ -44,6 +46,22 @@ function Projects() {
         },
         {
             id: 2,
+            img: Netflix,
+            heading: "Netflix - clone",
+            github: "https://github.com/Varshavt1999/react-real-estate",
+            siteLink: "https://realestatevarshavt.netlify.app",
+            technologies: [
+                "React",
+                "Styled Components",
+                "TMDB Api",
+                "firebase authentication",
+                "firebase database",
+            ],
+            description:
+                "Netflix clone project using firebase authentication and TMDB Apis",
+        },
+        {
+            id: 3,
             img: Youtube,
             heading: "Youtube - Clone",
             github: "https://github.com/Varshavt1999/youtube-clone",
@@ -60,7 +78,16 @@ function Projects() {
             description: "Youtube Clone website using Rapid Api",
         },
         {
-            id: 3,
+            id: 4,
+            img: weather,
+            heading: "Wheather App",
+            github: "https://github.com/Varshavt1999/weather-app",
+            siteLink: "https://Varshavt1999.github.io/weather-app",
+            technologies: ["React", "Styled Components", "OpenWeatherMap api"],
+            description: "Whether app using the OpenWeatherMap API",
+        },
+        {
+            id: 5,
             img: RealEstate,
             heading: "Real Estate",
             github: "https://github.com/Varshavt1999/react-real-estate",
@@ -69,7 +96,7 @@ function Projects() {
             description: "Real Estate ui project",
         },
         {
-            id: 4,
+            id: 6,
             img: BudgetCalc,
             heading: "Budget Calculator",
             github: "https://github.com/Varshavt1999/budget-calculator",
@@ -78,7 +105,7 @@ function Projects() {
             description: "Budget Calculator using react",
         },
         {
-            id: 5,
+            id: 7,
             img: HeartTrail,
             heading: "Heart Trail Animation",
             github: "https://github.com/Varshavt1999/heart-trail-animation",
@@ -87,7 +114,7 @@ function Projects() {
             description: "Heart Animation based on cursor movement using js",
         },
         {
-            id: 6,
+            id: 8,
             img: Coffee,
             heading: "Coffee website",
             github: "https://github.com/Varshavt1999/coffee-website",
@@ -96,7 +123,7 @@ function Projects() {
             description: "Responsive Coffe website ui using html css",
         },
         {
-            id: 7,
+            id: 9,
             img: RandomColor,
             heading: "Random color generator",
             github: "https://github.com/Varshavt1999/Random-color-generator",
