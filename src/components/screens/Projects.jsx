@@ -86,17 +86,17 @@ function Projects() {
             technologies: ["React", "Styled Components", "OpenWeatherMap api"],
             description: "Whether app using the OpenWeatherMap API",
         },
+        // {
+        //     id: 5,
+        //     img: RealEstate,
+        //     heading: "Real Estate",
+        //     github: "https://github.com/Varshavt1999/react-real-estate",
+        //     siteLink: "https://realestatevarshavt.netlify.app",
+        //     technologies: ["React", "Styled Components"],
+        //     description: "Real Estate ui project",
+        // },
         {
             id: 5,
-            img: RealEstate,
-            heading: "Real Estate",
-            github: "https://github.com/Varshavt1999/react-real-estate",
-            siteLink: "https://realestatevarshavt.netlify.app",
-            technologies: ["React", "Styled Components"],
-            description: "Real Estate ui project",
-        },
-        {
-            id: 6,
             img: BudgetCalc,
             heading: "Budget Calculator",
             github: "https://github.com/Varshavt1999/budget-calculator",
@@ -105,7 +105,7 @@ function Projects() {
             description: "Budget Calculator using react",
         },
         {
-            id: 7,
+            id: 6,
             img: HeartTrail,
             heading: "Heart Trail Animation",
             github: "https://github.com/Varshavt1999/heart-trail-animation",
@@ -114,7 +114,7 @@ function Projects() {
             description: "Heart Animation based on cursor movement using js",
         },
         {
-            id: 8,
+            id: 7,
             img: Coffee,
             heading: "Coffee website",
             github: "https://github.com/Varshavt1999/coffee-website",
@@ -123,7 +123,7 @@ function Projects() {
             description: "Responsive Coffe website ui using html css",
         },
         {
-            id: 9,
+            id: 8,
             img: RandomColor,
             heading: "Random color generator",
             github: "https://github.com/Varshavt1999/Random-color-generator",
