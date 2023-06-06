@@ -48,8 +48,8 @@ function Projects() {
             id: 2,
             img: Netflix,
             heading: "Netflix - clone",
-            github: "https://github.com/Varshavt1999/react-real-estate",
-            siteLink: "https://realestatevarshavt.netlify.app",
+            github: "https://github.com/Varshavt1999/netflix-clone",
+            siteLink: "https://netflix-clone-a8c70.web.app/",
             technologies: [
                 "React",
                 "Styled Components",
