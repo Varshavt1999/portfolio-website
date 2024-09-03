@@ -33,14 +33,16 @@ function Projects() {
       img: ab1Booking,
       heading: "Airbook One - Booking module",
       technologies: ["React JS", "Class Components", "Rest Api", "Scss"],
-      description: "",
+      description:
+        "A Private Aircraft booking application consisting of multiple modules booking and admin.Booking module for handling the aircraft bookings. and admin module for Job Scheduling. ",
     },
     {
       id: 2,
       img: ab1Admin,
       heading: "Airbook One - Admin module",
       technologies: ["javascript", "Rest Api", "Scss"],
-      description: "",
+      description:
+        "A Private Aircraft booking application consisting of multiple modules booking and admin.Admin module is for handlimg the admin side of airbook one. ",
     },
     {
       id: 3,
