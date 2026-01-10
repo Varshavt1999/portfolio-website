@@ -20,7 +20,7 @@ function Header() {
             <div className="header-wrapper">
                 <Left>
                     <LogoContainer
-                        to="/portfolio-website"
+                        to="/"
                         onMouseEnter={mouseEnterHandler}
                         onMouseLeave={mouseLeaveHandler}
                     >
@@ -33,7 +33,7 @@ function Header() {
                 <Right>
                     <NavBar>
                         <NavItem
-                            to="/portfolio-website"
+                            to="/"
                             onMouseEnter={mouseEnterHandler}
                             onMouseLeave={mouseLeaveHandler}
                         >

@@ -29,7 +29,7 @@ function MobileNav({ isHamburgerModal, setHamburgerModal }) {
                     <MdClose className="close" />
                 </Icon>
                 <NavItem
-                    to="/portfolio-website"
+                    to="/"
                     onClick={() => setHamburgerModal(!isHamburgerModal)}
                 >
                     Home
