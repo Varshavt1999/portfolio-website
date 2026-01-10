@@ -15,6 +15,8 @@ import Sass from "../../assets/images/sass.png";
 import Python from "../../assets/images/python.png";
 import Redux from "../../assets/images/redux.png";
 import shadCn from "../../assets/images/shadCn.png";
+import reactAdmin from "../../assets/images/react-admin.jpg";
+import typeScript from "../../assets/images/typescript-logo.png";
 // constants
 import { colors } from "../../constants/Colors";
 import { CursorContext } from "../../context/Store";
@@ -80,6 +82,16 @@ function Qualifications() {
       id: 12,
       name: "shadCn",
       img: shadCn,
+    },
+    {
+      id: 13,
+      name: "React Admin",
+      img: reactAdmin,
+    },
+    {
+      id: 14,
+      name: "TypeScript",
+      img: typeScript,
     },
   ];
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -188,6 +200,7 @@ const InnerContainer = styled.div`
   justify-content: center;
   gap: 50px;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
   @media all and (max-width: 768px) {
     gap: 45px;
   }
@@ -201,7 +214,7 @@ const LeftBox = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  grid-gap: 40px;
+  grid-gap: 20px;
   @media all and (max-width: 1280px) {
     grid-gap: 30px;
   }

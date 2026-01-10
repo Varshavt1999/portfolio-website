@@ -43,7 +43,7 @@ function About() {
             <Description>
               <p>
                 I enjoy creating things that live on the internet. Being in web
-                development industry for over 2 and half year, i'm always
+                development industry for over 3+ years, i'm always
                 motivated to do more.
               </p>
               <p>
